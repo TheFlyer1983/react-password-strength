@@ -13,7 +13,7 @@ class FormField extends Component{
     e.preventDefault();
 
     // destructure props - assign default dummy functions to validator and onStateChanged Props
-    const {label, required - false, validator = f => f, onStateChanged = f => f} = this.props;
+    const {label, required = false, validator = f => f, onStateChanged = f => f} = this.props;
     const value = e.target.value;
     const isEmpty = value.length === 0;
     const requiredMissing = this.state.dirty && required && isEmpty;
@@ -23,7 +23,7 @@ class FormField extends Component{
     if (requiredMissing) {
       // if required and is empty, add required error to state
       errors = [...errors, `${label} is required`];
-    } else if ('funtion' === typeof validator) {
+    } else if ('function' === typeof validator) {
       try {
         validator(value);
       } catch (e) {
@@ -45,7 +45,7 @@ class FormField extends Component{
 
     return (
       <Fragment>
-        <div className="form-group px-3 pb-3">
+        <div className="form-group px-3 pb-2">
           <div className="d-flex flex-row justify-content-between align-items-center">
             <label htmlFor={fieldId} className="control-label">{label}</label>
             {/**render the first error is there are any errors **/}
@@ -60,10 +60,10 @@ class FormField extends Component{
   }
 }
 
-FormField.PropTypes = {
+FormField.propTypes = {
   type: PropTypes.oneOf(["text", "password"]).isRequired,
   label: PropTypes.string.isRequired,
-  fieldID: PropTypes.string.isRequired,
+  fieldId: PropTypes.string.isRequired,
   placeholder: PropTypes.string.isRequired,
   required: PropTypes.bool,
   children: PropTypes.node,
