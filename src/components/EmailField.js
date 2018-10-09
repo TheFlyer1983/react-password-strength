@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {validate} from 'isemail';
+import {validate} from 'isemail-es5';
 
 import FormField from './FormField';
 

@@ -4,12 +4,16 @@
   "private": true,
   "homepage": "http://theflyer1983.github.io/react-password-strength",
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "isemail": "^3.1.2",
-    "prop-types": "^15.6.1",
+    "ajv": "^6.5.4",
+    "bootstrap": "^4.1.3",
+    "classnames": "^2.2.6",
+    "isemail-es5": "^3.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "prop-types": "^15.6.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^2.0.4",
     "zxcvbn": "^4.4.2"
   },
   "scripts": {
@@ -25,8 +29,8 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0",
-    "node-sass-chokidar": "^1.2.2",
-    "npm-run-all": "^4.1.2"
+    "gh-pages": "^2.0.1",
+    "node-sass-chokidar": "^1.3.4",
+    "npm-run-all": "^4.1.3"
   }
 }
