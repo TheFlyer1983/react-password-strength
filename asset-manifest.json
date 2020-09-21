@@ -1,6 +1,25 @@
 {
-  "main.css": "static/css/main.698401ed.css",
-  "main.css.map": "static/css/main.698401ed.css.map",
-  "main.js": "static/js/main.8b6241a4.js",
-  "main.js.map": "static/js/main.8b6241a4.js.map"
+  "files": {
+    "main.css": "/react-password-strength/static/css/main.3129cbfe.chunk.css",
+    "main.js": "/react-password-strength/static/js/main.8d11a02b.chunk.js",
+    "main.js.map": "/react-password-strength/static/js/main.8d11a02b.chunk.js.map",
+    "runtime-main.js": "/react-password-strength/static/js/runtime-main.70e796c3.js",
+    "runtime-main.js.map": "/react-password-strength/static/js/runtime-main.70e796c3.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/react-password-strength/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.2dfaeeac.chunk.js": "/react-password-strength/static/js/2.2dfaeeac.chunk.js",
+    "static/js/2.2dfaeeac.chunk.js.map": "/react-password-strength/static/js/2.2dfaeeac.chunk.js.map",
+    "index.html": "/react-password-strength/index.html",
+    "precache-manifest.3fc8811375a8ba5168c92b2bfdaf1392.js": "/react-password-strength/precache-manifest.3fc8811375a8ba5168c92b2bfdaf1392.js",
+    "service-worker.js": "/react-password-strength/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/react-password-strength/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.3129cbfe.chunk.css.map": "/react-password-strength/static/css/main.3129cbfe.chunk.css.map",
+    "static/js/2.2dfaeeac.chunk.js.LICENSE.txt": "/react-password-strength/static/js/2.2dfaeeac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70e796c3.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.2dfaeeac.chunk.js",
+    "static/css/main.3129cbfe.chunk.css",
+    "static/js/main.8d11a02b.chunk.js"
+  ]
 }
